@@ -1,0 +1,22 @@
+#logoBar {
+    background-color: black;
+    height: 80px;
+    width: 100vw;
+    position: relative;
+}
+
+#redButton {
+    background-color: red;
+    height:40px;
+    width: 120px;
+    border-radius: 1rem;
+}
+
+#envelope {
+    color: white;
+    font-size: 17px;
+}
+
+#redButtonText {
+    display: block;
+}
