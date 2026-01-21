@@ -1,3 +1,7 @@
+body{
+    direction: rtl;
+}
+
 #logoBar {
     background-color: black;
     height: 80px;
@@ -9,14 +13,56 @@
     background-color: red;
     height:40px;
     width: 120px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
 }
 
-#envelope {
+#redButtonText {
+    display: inline;
     color: white;
     font-size: 17px;
 }
 
-#redButtonText {
-    display: block;
+#envelope {
+    top: 30px;
+    color: white;
+    font-size: 17px;
+}
+
+#logo {
+    width: 80px;
+    position: absolute;
+    left: 47%;
+}
+
+#sun {
+    color: white;
+    font-size: 20px;
+    top: 30px;
+    right: 30px;
+    position: absolute;
+}
+
+#navBar {
+    padding: 15px;
+    background-color: whitesmoke;
+    color: grey;
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#navBar p{
+    display: inline;
+    margin-right: 70px;
+}
+
+#navBar #b {
+    margin-right: 0;
+
 }
